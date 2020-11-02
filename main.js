@@ -1,6 +1,6 @@
 $('.header-right > a').click(function() {
     $('.hamburger-menu').addClass('active')
 })
-$('.close > i').click(function() {
+$('.close').click(function() {
     $('.hamburger-menu').removeClass('active')
 })
